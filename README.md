@@ -1,10 +1,10 @@
-# Train SSD on the Custom Dataset
+# Train SSD on the Custom Dataset (Visdrone 2018)
 SSD is simple to use but inconvenient to modify its codes. Here in this repo, I list all the files and codes needed to be changed when using a new dataset.
 
 ```
 data/VOC0712/create_data.sh
 data/VOC0712/create_list.sh
-data/VOC0712/labelmap_melon.prototxt
+data/VOC0712/labelmap_visdrone.prototxt
 examples/ssd/score_ssd_pascal.py
 examples/ssd/ssd_pascal.py
 ```
